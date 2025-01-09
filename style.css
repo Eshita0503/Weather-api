@@ -1,0 +1,48 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color:#0c49a5;
+}
+h2{
+    text-align: center;
+}   
+    
+h1{
+    text-align : center;
+}
+#country-contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.countrycards{
+    background-color: #818127;
+    border: 1px solid #08095a;
+    border-radius:  12px;
+    width: 240px;
+    text-align:  center;
+    padding: 15px;
+    height: 300px;
+
+}
+.countrycards img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+.countrycards h3{
+    background-color: black;
+    margin: 10px 0;
+    font-size:  19px;
+    color: #c26a6a;
+}
+.countrycards P{
+    margin: 5px 0;
+    color:beige;
+    font-size:  14px;
+
+}
